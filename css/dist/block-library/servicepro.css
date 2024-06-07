@@ -1,0 +1,78 @@
+/*
+Theme Name: Smart Cleaning Services Pro
+Theme URI: https://www.themagnifico.net/themes/cleaning-services-wordpress-theme/
+Author: Themagnifico
+Author URI: https://www.themagnifico.net/
+Description: Cleaning WordPress Theme is designed for any cleaning related business or services. The theme has gorgeous, stunning and professional design that you will love. It is SEO-friendly that will help your website rank soon on major search engines like Google. It is a light-weight theme with minimal design. The responsive layout makes it more special as it looks beautiful on any device. It is translation-ready and supports RTL layout. You can add shortcodes and custom CSS/JS to add more functionality to your website. It has secure and clean codes and also faster page load times. It is implemented on bootstrap framework therefore is handy to use. It is the most user-friendly and offers many options for customization and personalization. The theme uses theme options using customizer API. It is compatible with famous WordPress plugins like Contact Form 7 etc.
+Version: 0.0.1
+Requires at least: 5.0
+Tested up to: 5.6.1
+Requires PHP: 5.2.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: smart-cleaning-services-pro
+Tags: one-column, right-sidebar, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments
+
+Smart Cleaning Services Pro WordPress Theme has been created by Themagnifico(Themagnifico.net), 2022.
+Smart Cleaning Services Pro WordPress Theme is released under the terms of GNU GPL
+
+/* Basic Style */
+
+.bypostauthor {
+  font-weight: 600;
+}
+
+/*--------- Site Loader --------------*/
+
+.preloader {
+  background: #f4f9ff;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
+  z-index: 99999;
+}
+.load{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:100px;
+  height:100px;
+}
+.load hr{
+  border:0;
+  margin:0;
+  width:40%;
+  height:40%;
+  position:absolute;
+  border-radius:50%;
+  animation:spin 2s ease infinite;
+}
+.load :first-child{background:#1b1b1b;animation-delay:-1.5s}
+.load :nth-child(2){background:#247ffb;animation-delay:-1s}
+.load :nth-child(3){background:#1b1b1b;animation-delay:-0.5s}
+.load :last-child{background:#247ffb}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}
+
+.slide:after {
+    content: '';
+    background-image: url(assets/images/slider-design.png);
+    background-repeat: repeat-x;
+    background-position: center top;
+    display: block;
+    height: 186px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 9;
+}
